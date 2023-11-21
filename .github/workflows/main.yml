@@ -1,0 +1,11 @@
+on:
+  push:
+    - main    
+    
+name: FTP Deploy
+uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+  with:
+    server: test.proinfocus.com
+    username: tester
+    password: testing
+            
